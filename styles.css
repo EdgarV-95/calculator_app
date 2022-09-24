@@ -49,3 +49,45 @@ button {
 #equal {
    width: 204px;
 }
+
+@media screen and (max-width: 420px) and (max-height: 915px) {
+   body {
+      /* background-color: rgb(106, 146, 179); */
+      background: url(https://i.ytimg.com/vi/fcXMtsL0d3s/maxresdefault.jpg)     
+      no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+   }
+   
+   .container {
+      margin-top: 12vh;
+      margin-right: 20vw;
+   }
+   
+   .displays {
+      height: 8vh;
+      width: 55.5vw;
+      background-color: rgb(199, 194, 194);
+      border: 3px solid black;
+      color: black;
+      box-shadow: 3px 2px black;
+      font-weight: bold;
+   }
+   
+   
+   button {
+      height: 7vh;
+      width: 14vw;
+      background-color: gray;
+      border: 3px solid black;
+      color: rgb(0, 3, 7);
+      box-shadow: 4.5px 2px black;
+      font-weight:900;
+   }
+   
+   #equal {
+      width: 29vw;
+   }
+}
