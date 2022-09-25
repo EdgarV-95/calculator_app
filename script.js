@@ -158,22 +158,22 @@ const backspace = () => {
 // Digits
 const digits = document.querySelectorAll('.digit');
 digits.forEach(digit => {
-    digit.addEventListener('click', populate);
+    digit.addEventListener('pointerdown', populate);
 });
 
 // Operations
 const operations = document.querySelectorAll('.operation');
 operations.forEach(operation => {
     if (operation.value === '=') {
-        operation.addEventListener('click', calculate);
+        operation.addEventListener('pointerdown', calculate);
     } else if(operation.value === 'clear') {
-        operation.addEventListener('click', clearCalc);
+        operation.addEventListener('pointerdown', clearCalc);
     } else if (operation.value === 'delete') {
-        operation.addEventListener('click', backspace);
+        operation.addEventListener('pointerdown', backspace);
     } else if (operation.value === '.') {
-        operation.addEventListener('click', addDecimal);
+        operation.addEventListener('pointerdown', addDecimal);
     } else {
-        operation.addEventListener('click', saveNumberAndOperator);
+        operation.addEventListener('pointerdown', saveNumberAndOperator);
     };
 });
 
