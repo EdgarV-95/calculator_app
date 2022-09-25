@@ -64,13 +64,12 @@ button {
    }
    
    .container {
-      margin-top: 12vh;
-      margin-right: 20vw;
+      margin-top: 15vh;
    }
    
    .displays {
-      height: 8vh;
-      width: 55.5vw;
+      height: 15vh;
+      width: 70vw;
       background-color: rgb(199, 194, 194);
       border: 3px solid black;
       color: black;
@@ -81,7 +80,7 @@ button {
    
    button {
       height: 7vh;
-      width: 14vw;
+      width: 18vw;
       background-color: gray;
       border: 3px solid black;
       color: rgb(0, 3, 7);
@@ -90,6 +89,7 @@ button {
    }
    
    #equal {
-      width: 29vw;
+      width: 37vw;
+      height: 7vh;
    }
 }
